@@ -9,10 +9,12 @@ h1{
 .name{
     color: orange;
 }
-section{
+.flex{
     display: flex;
 
 }
+
+
 .half-width{
     width: 50%;
     padding-left: 10% ;
@@ -30,7 +32,7 @@ section{
     background-image:linear-gradient(orange , salmon)
     
 }
-#top-banner{
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     margin: 0;
@@ -38,8 +40,36 @@ section{
 .bottom{
     padding-right: 150px ;
 }
-#bottom-banner{
+.bottom-banner{
     background-image:url(images/dream-bg.png) ;
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left:50px;
+    padding-right:30px ;
+    box-shadow: 10px 10px 60px gray;
+    border-radius: 15px;
+    
+    
+}
+.experience-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left 150px;
+}
+#ex1{
+    border-left: solid 7px blue;
+}
+#ex2{
+    border-left: solid 7px tomato;
+}
+footer{
+    text-align: center;
+}
+section{
+    margin-bottom: 50px;
 }
